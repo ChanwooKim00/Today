@@ -25,7 +25,7 @@ public class Postserver {
                 }
  
                 if(line.startsWith("Content-Length")) {
-                    contentLength = Integer.parseInt(line.replaceAll("Content-Length: ",""));
+                    contentLength = Integer.parseInt(line.replaceAll("Content-Length : ",""));
                 }
             }
  
