@@ -1,4 +1,4 @@
-package hi;
+import hi.WithHash;
 
 public class StartMain {
 	public static void main(String[] args) {
